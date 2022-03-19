@@ -1,11 +1,11 @@
 {
   "name": "hacksdev",
-  "homepage": "https://hacksdev.github.io/",
+  "homepage": "https://hacksdev.github.io/HacksDev/",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/HacksDev/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
