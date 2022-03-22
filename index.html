@@ -15,13 +15,13 @@
     rel="stylesheet">
 </head>
 
-<body class="w-full antialiased h-screen bg-gradient-to-r from-sky-400 to-blue-500">
+<body class="w-full antialiased h-screen bg-gray-200">
   <main class="container lg:mt-10 mx-auto grid gap-5 lg:grid-cols-3">
     <aside class="space-y-5">
       <div class="bg-white overflow-hidden shadow-gray-400 shadow-md border-solid rounded-none lg:rounded-lg">
 
 
-        <img class="w-full lg:h-96 object-cover object-top" src="/images/avatar.jpeg" alt="avatar">
+        <img class="w-full lg:h-96 max-h-96 object-cover object-top" src="/images/avatar.jpeg" alt="avatar">
 
         <div class="flex items-center px-4 py-2 bg-gray-900">
           <h1 class="text-white font-semibold text-lg">Making magic ✨</h1>
@@ -125,6 +125,10 @@
             <span type="button"
               class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
               Vue
+            </span>
+            <span type="button"
+              class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+              Angular
             </span>
             <span type="button"
               class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
@@ -268,13 +272,301 @@
     <section class="space-y-5 lg:col-span-2">
 
       <article class="bg-white overflow-hidden shadow-gray-400 shadow-md 4 border-solid rounded-none lg:rounded-lg">
-        <div class="p-2 px-4">Hello</div>
+        <div class="p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+            class="w-8 h-8 mr-2 mb-3 inline-block  text-sky-400 hover:text-blue-500" fill="currentColor">
+            <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M320 336c0 8.844-7.156 16-16 16h-96C199.2 352 192 344.8 192 336V288H0v144C0 457.6 22.41 480 48 480h416c25.59 0 48-22.41 48-48V288h-192V336zM464 96H384V48C384 22.41 361.6 0 336 0h-160C150.4 0 128 22.41 128 48V96H48C22.41 96 0 118.4 0 144V256h512V144C512 118.4 489.6 96 464 96zM336 96h-160V48h160V96z" />
+          </svg>
+          <h1
+            class="text-4xl inline-block font-extrabold uppercase text-gray-700 underline decoration-sky-400 hover:decoration-blue-500">
+            Experience</h1>
+
+          <div class="relative ml-3 border-l-4 border-sky-400">
+
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400"></div>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">Career Website</h2>
+
+                  <span class="text-lg mb-2 text-gray-700">
+                    <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512">
+                      <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z" />
+                    </svg>
+                    Web Developer
+                  </span>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">January 2021 – Present</time>
+                </div>
+
+              </div>
+
+              <div class="flex flex-wrap">
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  React
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Redux (Toolkit)
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Squidex CMS
+                </span>
+              </div>
+
+              <p class="text-lg font-semibold">Responsibilities:</p>
+              <ol class="ml-4">
+                <li>Architecture design,</li>
+                <li>UI implementation,</li>
+                <li>Data scheme development (for Squidex CMS).</li>
+              </ol>
+
+            </div>
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400 mt-1"></div>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">Search platform for chemical data</h2>
+
+                  <span class="text-lg mb-2 text-gray-700">
+                    <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512">
+                      <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z" />
+                    </svg>
+                    Web Developer
+                  </span>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">November 2020 – January 2021</time>
+                </div>
+
+              </div>
+
+              <div class="flex flex-wrap">
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  React
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Redux (Toolkit)
+                </span>
+              </div>
+
+              <p class="text-lg font-semibold">Responsibilities:</p>
+              <ol class="ml-4">
+                <li>Designing the client side architecture,</li>
+                <li>Creating an API description,</li>
+                <li>UI implementation,</li>
+                <li>Implementation of modules that interacts with the API.</li>
+              </ol>
+
+            </div>
+
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400 mt-1"></div>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">Company website</h2>
+
+                  <span class="text-lg mb-2 text-gray-700">
+                    <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512">
+                      <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z" />
+                    </svg>
+                    Web Developer
+                  </span>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">July 2020 – August 2020</time>
+                </div>
+
+              </div>
+
+              <div class="flex flex-wrap">
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Vue
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Firebase
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Google API
+                </span>
+              </div>
+
+              <p class="text-lg font-semibold">Responsibilities:</p>
+              <ol class="ml-4">
+                <li>UI implementation,</li>
+                <li>Connecting authentication features, including OAuth for social services.</li>
+              </ol>
+
+            </div>
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400 mt-1"></div>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">News Portal</h2>
+
+                  <span class="text-lg mb-2 text-gray-700">
+                    <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512">
+                      <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z" />
+                    </svg>
+                    Full Stack Engineer
+                  </span>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">June 2018 – Present</time>
+                </div>
+
+              </div>
+
+              <div class="flex flex-wrap">
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  PHP
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  MySQL
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  JS
+                </span>
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  HTML/CSS
+                </span>
+              </div>
+
+              <p class="text-lg font-semibold">Responsibilities:</p>
+              <ol class="ml-4">
+                <li>Defining and documenting customer requirements,</li>
+                <li>Developing a database schema,</li>
+                <li>Creating a custom implementation of MVC architecture,</li>
+                <li>Implementing authentication, routing and ORM modules,</li>
+                <li>Configuring CI/CD processes and deploying the application.</li>
+              </ol>
+
+            </div>
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400 mt-1"></div>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">Website for ad campaign</h2>
+
+                  <span class="text-lg mb-2 text-gray-700">
+                    <svg class="w-6 h-6 inline-block" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 640 512">
+                      <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z" />
+                    </svg>
+                    Web Developer
+                  </span>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">November 2017 – February 2018</time>
+                </div>
+
+              </div>
+
+              <div class="flex flex-wrap">
+                <span type="button"
+                  class="rounded-lg px-4 mb-2 mr-2 bg-sky-200 text-sky-600 font-semibold p-2 leading-none">
+                  Angular
+                </span>
+              </div>
+
+              <p class="text-lg font-semibold">Responsibilities:</p>
+              <ol class="ml-4">
+                <li>Login form and authentication features implementation,</li>
+                <li>Creating administrative dashboard, which works with huge amounts of data.</li>
+              </ol>
+
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </article>
+
+      <article class="bg-white overflow-hidden shadow-gray-400 shadow-md 4 border-solid rounded-none lg:rounded-lg">
+        <div class="p-4">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+            class="w-8 h-8 mr-2 mb-3 inline-block  text-sky-400 hover:text-blue-500" fill="currentColor">
+            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M623.1 136.9l-282.7-101.2c-13.73-4.91-28.7-4.91-42.43 0L16.05 136.9C6.438 140.4 0 149.6 0 160s6.438 19.65 16.05 23.09L76.07 204.6c-11.89 15.8-20.26 34.16-24.55 53.95C40.05 263.4 32 274.8 32 288c0 9.953 4.814 18.49 11.94 24.36l-24.83 149C17.48 471.1 25 480 34.89 480H93.11c9.887 0 17.41-8.879 15.78-18.63l-24.83-149C91.19 306.5 96 297.1 96 288c0-10.29-5.174-19.03-12.72-24.89c4.252-17.76 12.88-33.82 24.94-47.03l190.6 68.23c13.73 4.91 28.7 4.91 42.43 0l282.7-101.2C633.6 179.6 640 170.4 640 160S633.6 140.4 623.1 136.9zM351.1 314.4C341.7 318.1 330.9 320 320 320c-10.92 0-21.69-1.867-32-5.555L142.8 262.5L128 405.3C128 446.6 213.1 480 320 480c105.1 0 192-33.4 192-74.67l-14.78-142.9L351.1 314.4z" />
+          </svg>
+          <h1
+            class="text-4xl inline-block font-extrabold uppercase text-gray-700 underline decoration-sky-400 hover:decoration-blue-500">
+            Education
+          </h1>
+
+          <div class="relative ml-3 border-l-4 border-sky-400">
+
+
+            <div class="ml-6 mb-6">
+              <div class="absolute w-5 h-5 rounded-full -left-3 bg-sky-400"></div>
+              <div class="flex justify-between mb-2">
+                <div class="flex flex-col">
+                  <h2 class="text-2xl font-semibold text-gray-700 leading-6">ITMO University</h2>
+                </div>
+                <div class="flex items-end flex-col">
+                  <time datetime="2018-07-07T20:00:00">2017 – 2021</time>
+                </div>
+              </div>
+
+
+              <p class="text-lg leading-5">Saint Petersburg ITMO University, Bachelor's Degree in Infocommunication
+                Technologies and Communication Systems</p>
+            
+            </div>
+
+
+
+
+          </div>
+
+        </div>
       </article>
 
 
+      <!-- Projects -->
+      <!-- Education -->
+      <!-- Comp & Awards -->
+
     </section>
   </main>
-  <footer class="py-5 text-center font-sans text-white">
+  <footer class="py-5 text-center uppercase font-sans text-sm text-gray-800">
     © Andrey Mokrousov
   </footer>
 </body>
